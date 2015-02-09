@@ -7,7 +7,7 @@ chdir($dir);
 if ( ! empty($argv[1]) && ('hevy' === $argv[1])) {
 	// the hevy version
 	ob_start( );
-	include '../moocow/moonfeed.php';
+	include 'moonfeed.php';
 	$moon = ob_get_clean( );
 	file_put_contents('moonfeed.xml', $moon);
 	echo $moon;
@@ -15,7 +15,7 @@ if ( ! empty($argv[1]) && ('hevy' === $argv[1])) {
 else {
 	// the lite version
 	ob_start( );
-	include '../moocow/moonlite.php';
+	include 'moonlite.php';
 	$moon = ob_get_clean( );
 	file_put_contents('moonlite.xml', $moon);
 	echo $moon;
