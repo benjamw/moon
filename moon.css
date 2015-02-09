@@ -13,9 +13,15 @@
 .h2 {
 	margin-left: 1em;
 }
+
 .h3 {
 	margin-left: 2em;
 }
+
+.h4 {
+	font-size: x-small;
+}
+
 hr.end {
 	margin: 1em;
 	border: 3px groove #777;
