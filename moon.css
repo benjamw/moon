@@ -1,0 +1,23 @@
+/* * * * * * * * * * * * * *\
+ *  CSS for moonlite feed  *
+ *      Benjam Welker      *
+ * * * * * * * * * * * * * *
+ *  Created on: 2005-06-08 *
+ * Last Update: 2005-06-08 *
+\* * * * * * * * * * * * * */
+
+.feed {
+	font-size: x-small;
+}
+
+.h2 {
+	margin-left: 1em;
+}
+.h3 {
+	margin-left: 2em;
+}
+hr.end {
+	margin: 1em;
+	border: 3px groove #777;
+}
+
